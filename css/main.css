@@ -178,6 +178,11 @@ img {
   text-decoration: none;
   color: var(--main-dark-color);
 }
+@media screen and (max-width: 369px) {
+  .site-nav__link {
+    font-size: 24px;
+  }
+}
 @media screen and (min-width: 768px) {
   .site-nav__link {
     font-size: 14px;
@@ -295,6 +300,12 @@ img {
 
 .auth__link:hover, .auth__link:focus {
   color: var(--accent-color);
+}
+
+@media screen and (max-width: 369px) {
+  .auth__item .auth__link-mobile-tel {
+    font-size: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1562,6 +1573,12 @@ textarea :hover {
   display: -ms-flexbox;
   display: flex;
   margin-top: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .mobile-menu__link {
@@ -1579,6 +1596,11 @@ textarea :hover {
   letter-spacing: 0.02em;
   color: var(--accent-color);
   text-decoration: none;
+}
+@media screen and (max-width: 369px) {
+  .mobile-menu__link {
+    font-size: 12px;
+  }
 }
 
 .mobile-menu__link-after::after {
