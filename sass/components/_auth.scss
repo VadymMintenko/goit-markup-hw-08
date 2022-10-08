@@ -1,0 +1,80 @@
+.auth {
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+  }
+
+  &__item {
+    display: inline-block;
+  }
+
+  &__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    @media screen and (min-width: 768px) {
+      font-size: 12px;
+      line-height: 1.3;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.1;
+    }
+
+    display: flex;
+    align-items: center;
+    color: var(--main-text-color);
+    gap: 10px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .auth__icon {
+      fill: var(--accent-color);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:focus .auth__icon {
+      fill: var(--accent-color);
+    }
+  }
+  &__icon {
+    fill: var(--main-text-color);
+    gap: 10px;
+  }
+}
+
+.auth {
+  @media screen and (min-width: 768px) {
+  }
+}
+
+.auth a {
+  @media screen and (min-width: 768px) {
+    padding-bottom: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.auth {
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+  }
+}
+
+.auth__link-mail {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-top: 21px;
+  }
+}

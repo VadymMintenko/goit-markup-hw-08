@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+}
+
+:root {
+  --accent-color: rgba(33, 150, 243, 1);
+  --main-dark-color: rgba(33, 33, 33, 1);
+  --main-text-color: rgba(117, 117, 117, 1);
+  --title-text-color: rgba(255, 255, 255, 1);
+  --bgc-dark: rgba(47, 48, 58, 1);
+  --button-color: rgba(33, 150, 243, 1);
+  --portfolio-buttons-color: rgba(245, 244, 250, 1);
+  --border-color: rgba(238, 238, 238, 1);
+  --link-color--: rgba(175, 177, 184, 1);
+}

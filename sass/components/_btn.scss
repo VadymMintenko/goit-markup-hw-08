@@ -1,0 +1,14 @@
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--title-text-color);
+  background-color: var(--button-color);
+  cursor: pointer;
+  border: none;
+}
