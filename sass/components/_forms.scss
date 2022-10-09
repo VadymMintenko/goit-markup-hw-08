@@ -177,13 +177,21 @@ textarea :hover {
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin: auto;
   }
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+  }
 }
 
 .footer-form__container {
   @media screen and (min-width: 1200px) {
     display: block;
-    margin-left: 93px;
     align-items: center;
+  }
+}
+
+.footer-form__container .footer-title {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-top: 60px;
   }
 }
 
@@ -208,6 +216,7 @@ textarea :hover {
     width: 358px;
     height: 50px;
     margin-right: 12px;
+    margin-bottom: 0;
   }
 }
 

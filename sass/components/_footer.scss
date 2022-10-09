@@ -14,7 +14,7 @@ footer {
   }
   @media screen and (min-width: 1200px) {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
   }
 }
 
@@ -53,6 +53,7 @@ footer {
   }
   @media screen and (min-width: 1200px) {
     display: flex;
+    align-items: baseline;
   }
 }
 
@@ -114,7 +115,7 @@ footer {
   color: var(--title-text-color);
   margin-bottom: 20px;
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {
     margin-top: 60px;
   }
 

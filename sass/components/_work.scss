@@ -29,18 +29,20 @@
     bottom: 0;
   }
   &__name {
-    margin-top: 27px;
-    display: block;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
 
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
   }
+}
+
+.work-list__name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
